@@ -1,0 +1,32 @@
+Reading netlist file: "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\gwsynthesis\gowin_usb_refdesign.vg"
+Parsing netlist file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\gwsynthesis\gowin_usb_refdesign.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_ref.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "u_usb_device_controller_top/u_usb_device_controller/n1520_29" and "PHY_CLKOUT"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "PHY_CLKOUT" and "u_usb_device_controller_top/u_usb_device_controller/n1520_29"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "PHY_CLKOUT" and "clkout"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\pnr\gowin_usb_refdesign.power.html" completed
+Generate file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\pnr\gowin_usb_refdesign.pin.html" completed
+Generate file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\pnr\gowin_usb_refdesign.rpt.html" completed
+Generate file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\pnr\gowin_usb_refdesign.rpt.txt" completed
+Generate file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\pnr\gowin_usb_refdesign.tr.html" completed
+Mon Mar 21 12:27:33 2022
+

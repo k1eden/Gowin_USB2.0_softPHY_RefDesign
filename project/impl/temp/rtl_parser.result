@@ -1,0 +1,116 @@
+[
+ {
+  "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+  "InstLine" : 2,
+  "InstName" : "Top",
+  "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+    "InstLine" : 84,
+    "InstName" : "u_pll",
+    "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+    "InstLine" : 116,
+    "InstName" : "tx_fifo",
+    "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/fifo_sc_top/fifo_sc_top.v",
+    "ModuleLine" : 300,
+    "ModuleName" : "fifo_sc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/fifo_sc_top/fifo_sc_top.v",
+      "InstLine" : 323,
+      "InstName" : "fifo_sc_inst",
+      "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/fifo_sc_top/fifo_sc_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo_sc.fifo_sc_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+    "InstLine" : 131,
+    "InstName" : "rx_fifo",
+    "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/fifo_sc_top/fifo_sc_top.v",
+    "ModuleLine" : 300,
+    "ModuleName" : "fifo_sc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/fifo_sc_top/fifo_sc_top.v",
+      "InstLine" : 323,
+      "InstName" : "fifo_sc_inst",
+      "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/fifo_sc_top/fifo_sc_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo_sc.fifo_sc_top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+    "InstLine" : 228,
+    "InstName" : "u_usb_device_controller_top",
+    "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb_device_controller/usb_device_controller.v",
+    "ModuleLine" : 5923,
+    "ModuleName" : "USB_Device_Controller_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb_device_controller/usb_device_controller.v",
+      "InstLine" : 6042,
+      "InstName" : "u_usb_device_controller",
+      "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb_device_controller/usb_device_controller.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~usb_device_controller.USB_Device_Controller_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+    "InstLine" : 300,
+    "InstName" : "u_usb_desc",
+    "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb_descriptor.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "usb_desc"
+   },
+   {
+    "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/TOP.v",
+    "InstLine" : 328,
+    "InstName" : "u_USB_SoftPHY_Top",
+    "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb2_0_softphy/usb2_0_softphy.v",
+    "ModuleLine" : 6361,
+    "ModuleName" : "USB2_0_SoftPHY_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb2_0_softphy/usb2_0_softphy.v",
+      "InstLine" : 8860,
+      "InstName" : "u_usb2_0_softphy",
+      "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb2_0_softphy/usb2_0_softphy.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~usb2_0_softphy.USB2_0_SoftPHY_Top"
+     },
+     {
+      "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb2_0_softphy/usb2_0_softphy.v",
+      "InstLine" : 8951,
+      "InstName" : "u_usb_fs_phy",
+      "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/usb2_0_softphy/usb2_0_softphy.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~usb_fs_phy.USB2_0_SoftPHY_Top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/gowin_pllvr/gowin_pllvr.v",
+  "InstLine" : 9,
+  "InstName" : "Gowin_PLLVR",
+  "ModuleFile" : "D:/Cygwin/home/garik/Gowin_USB2.0_softPHY_RefDesign/project/src/gowin_pllvr/gowin_pllvr.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "Gowin_PLLVR"
+ }
+]

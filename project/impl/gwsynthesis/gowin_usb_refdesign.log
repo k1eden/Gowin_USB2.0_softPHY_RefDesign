@@ -1,0 +1,72 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v'
+WARN  (EX3628) : Redeclaration of ANSI port 'cdc_reset' is not allowed("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":18)
+Undeclared symbol 'fclk_480M', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":85)
+WARN  (EX3792) : Literal value 'd60000000 truncated to fit in 16 bits("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":99)
+Undeclared symbol 'tx_fifo_full', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":125)
+Undeclared symbol 'usb_busreset', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":231)
+Undeclared symbol 'usb_highspeed', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":232)
+Undeclared symbol 'usb_suspend', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":233)
+Undeclared symbol 'usb_online', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":234)
+Undeclared symbol 'usb_txpktfin', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":242)
+Undeclared symbol 'rxpktval', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":247)
+Undeclared symbol 'usb_sof', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":250)
+Undeclared symbol 'PHY_RESET', assumed default net type 'wire'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":286)
+Analyzing Verilog file 'C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\fifo_sc_top\fifo_sc_top.v'
+Analyzing Verilog file 'C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\gowin_pllvr\gowin_pllvr.v'
+Analyzing Verilog file 'C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v'
+Analyzing Verilog file 'C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_descriptor.v'
+Analyzing Verilog file 'C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v'
+Compiling module 'Top'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":2)
+Compiling module 'Gowin_rPLL'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'fifo_sc_top'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\fifo_sc_top\fifo_sc_top.v":300)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\fifo_sc_top\fifo_sc_top.v":0)
+Compiling module 'USB_Device_Controller_Top'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v":5923)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v":0)
+Compiling module 'usb_desc(PRODUCTID=16'h0000,SELFPOWERED=1)'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_descriptor.v":3)
+Compiling module 'USB2_0_SoftPHY_Top'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":6361)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v":0)
+WARN  (EX1998) : Net 'endpt0_send' does not have a driver("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":76)
+WARN  (EX1998) : Net 'endpt0_dat[7]' does not have a driver("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":77)
+NOTE  (EX0101) : Current top module is "Top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input cdc_reset is unused("C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v":12)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\gwsynthesis\gowin_usb_refdesign.vg" completed
+[100%] Generate report file "C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\gwsynthesis\gowin_usb_refdesign_syn.rpt.html" completed
+GowinSynthesis finish

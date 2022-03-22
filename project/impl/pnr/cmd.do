@@ -1,0 +1,11 @@
+-d C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\gwsynthesis\gowin_usb_refdesign.vg
+-p GW2AR-18C-QFN88-7
+-pn GW2AR-LV18QN88C7/I6
+-cst C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_ref.cst
+-cfg C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\pnr\device.cfg
+-sdc C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_ref.sdc
+-bit
+-tr
+-ph
+-timing
+-place_option 1

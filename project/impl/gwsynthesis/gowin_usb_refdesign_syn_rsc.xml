@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Top" Register="26" Lut="58">
+    <SubModule name="u_pll"/>
+    <SubModule name="tx_fifo" Register="32" Alu="30" Lut="18" Bsram="1"/>
+    <SubModule name="rx_fifo" Register="22" Alu="20" Lut="17" Bsram="1"/>
+    <SubModule name="u_usb_device_controller_top" Register="449" Alu="89" Lut="1351"/>
+    <SubModule name="u_usb_desc" Lut="74"/>
+    <SubModule name="u_USB_SoftPHY_Top" Register="639" Alu="13" Lut="1276" Bsram="1"/>
+</Module>

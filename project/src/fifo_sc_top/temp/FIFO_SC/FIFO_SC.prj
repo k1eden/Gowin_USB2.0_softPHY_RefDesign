@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1" package="QFN48" speed="6" partNumber="GW1N-LV1QN48C6/I5"/>
+    <FileList>
+        <File path="F:/Winson/USB/Trunk/usb_device_controller/Demo/GW1NSR4/usb2jtag/src/fifo_sc_top/temp/FIFO_SC/fifo_sc_define.v" type="verilog"/>
+        <File path="F:/Winson/USB/Trunk/usb_device_controller/Demo/GW1NSR4/usb2jtag/src/fifo_sc_top/temp/FIFO_SC/fifo_sc_parameter.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.6.02Beta/IDE/ipcore/FIFO_SC/data/edc_sc.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.6.02Beta/IDE/ipcore/FIFO_SC/data/fifo_sc.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.6.02Beta/IDE/ipcore/FIFO_SC/data/fifo_sc_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="output_file" value="fifo_sc_top.vg"/>
+        <Option type="ram_rw_check" value="1"/>
+    </OptionList>
+</Project>

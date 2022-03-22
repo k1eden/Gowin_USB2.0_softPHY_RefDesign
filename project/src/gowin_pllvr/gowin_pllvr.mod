@@ -1,0 +1,35 @@
+-series GW1NSR
+-device GW1NSR-4
+-package MBGA64P
+-part_number GW1NSR-LV4MG64PC7/I6
+
+
+-mod_name Gowin_PLLVR
+-file_name gowin_pllvr
+-path F:/Winson/USB/Trunk/usb_device_controller/RefDesign/project/src/gowin_pllvr/
+-type PLL
+-pllvr true
+-file_type vlg
+-dev_type GW1NSR-4
+-dyn_idiv_sel false
+-idiv_sel 1
+-dyn_fbdiv_sel false
+-fbdiv_sel 40
+-dyn_odiv_sel false
+-odiv_sel 2
+-dyn_sdiv_sel 8
+-dyn_da_en true
+-rst_sig false
+-rst_sig_p false
+-pll_reg false
+-fclkin 12
+-clkfb_sel 0
+-en_lock true
+-clkout_bypass false
+-clkout_ft_dir 1
+-en_clkoutp false
+-clkoutp_bypass false
+-en_clkoutd true
+-clkoutd_bypass false
+-clkoutd_src CLKOUT
+-en_clkoutd3 false

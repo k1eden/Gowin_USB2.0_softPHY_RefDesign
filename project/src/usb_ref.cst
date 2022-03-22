@@ -1,0 +1,34 @@
+//Copyright (C)2014-2021 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.7.02Beta
+//Part Number: !GW1NSR-LV4MG64PC7/I6! GW2AR-LV18QN88PC7/I6
+//Device: !GW1NSR-4! GW2AR-18C
+//Created Time: Fri 03 05 10:34:48 2021
+
+IO_LOC "usb_dxp_io" 75,74;
+IO_PORT "usb_dxp_io" PULL_MODE=NONE DRIVE=4;
+
+IO_LOC "LED" 13;
+IO_PORT "LED" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "usb_term_dn_io" 72;
+IO_PORT "usb_term_dn_io" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;//?? change drive to 4???
+
+IO_LOC "usb_term_dp_io" 73;
+IO_PORT "usb_term_dp_io" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "usb_pullup_en_o" 80;
+IO_PORT "usb_pullup_en_o" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "usb_rxdn_i" 71;
+IO_PORT "usb_rxdn_i" IO_TYPE=LVDS25 PULL_MODE=NONE;
+
+IO_LOC "usb_rxdp_i" 77;
+IO_PORT "usb_rxdp_i" IO_TYPE=LVDS25 PULL_MODE=NONE;
+
+IO_LOC "CLK_IN" 10;
+IO_PORT "CLK_IN" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "cdc_reset" 19;
+IO_PORT "cdc_reset" IO_TYPE=LVCMOS33 PULL_MODE=UP;

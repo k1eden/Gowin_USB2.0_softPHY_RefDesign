@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="7" partNumber="GW2AR-LV18QN88C7/I6"/>
+    <FileList>
+        <File path="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\TOP.v" type="verilog"/>
+        <File path="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\fifo_sc_top\fifo_sc_top.v" type="verilog"/>
+        <File path="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\gowin_pllvr\gowin_pllvr.v" type="verilog"/>
+        <File path="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb2_0_softphy\usb2_0_softphy.v" type="verilog"/>
+        <File path="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_descriptor.v" type="verilog"/>
+        <File path="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\src\usb_device_controller\usb_device_controller.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\cd\PSPOD\Gowin_USB2.0_softPHY_RefDesign\Gowin_USB2.0_softPHY_RefDesign\project\impl\gwsynthesis\gowin_usb_refdesign.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="Top"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-2008"/>
+    </OptionList>
+</Project>
